@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import React from "react";
 
 const ButtonStyle = styled.button`
   border: 0;
@@ -19,7 +18,7 @@ const ButtonStyle = styled.button`
   }
 `;
 
-export const Button = ({ label, onClick, color = "#ff5722" }) => {
+const Button = ({ label, onClick, color = "#ff5722" }) => {
   return (
     <ButtonStyle onClick={onClick} color={color}>
       {label}
