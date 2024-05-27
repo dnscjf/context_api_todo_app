@@ -12,7 +12,7 @@ const DataViewWrapStyle = styled.div`
   border-radius: 8px;
 `;
 
-const DataView = () => {
+const DataView = (): JSX.Element => {
   return (
     <DataViewWrapStyle>
       <Title label="할 일 목록" />
